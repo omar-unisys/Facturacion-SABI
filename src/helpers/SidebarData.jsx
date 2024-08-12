@@ -53,5 +53,18 @@ export const SidebarData = [
         icon: <FaFileWaveform />
       }
     ]
+  },
+  {
+    title: 'Inventario',
+    path: '/',
+    icon: <RiIcons.RiAdminLine />,
+    cName: 'nav-text',
+    subNav: [
+      {
+        title: 'Inventario Redes',
+        path: '/inventario/inventarioRedes',
+        icon: <FaTable />
+      }
+    ]
   }
 ];

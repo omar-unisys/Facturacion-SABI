@@ -12,7 +12,7 @@ import { AdminPage } from './pages/AdminPage';
 import { Login } from './components/Login';
 import { FormTimeRecord } from './components/FormTimeRecord';
 import { TablePendingActivities } from './components/TablePendingActivities';
-        
+import { TableInventarioRedes } from  './components/TableInventarioRedes';     
 
 
 function App() {
@@ -71,6 +71,7 @@ function App() {
             <Route path="/sabi/timerecord/:idActivity" element={<FormTimeRecord/>} />
             <Route path="/sabi/timerecord/" element={<FormTimeRecord/>} />
             <Route path="/sabi/pendingactivities/" element={<TablePendingActivities/>} />
+            <Route path="/inventario/inventarioRedes/" element={<TableInventarioRedes/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
         </AuthProvider>
